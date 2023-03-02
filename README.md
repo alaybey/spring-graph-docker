@@ -34,7 +34,7 @@ Example: `http://localhost:8080/graphiql?path=/graphql`
 
 ### Tech Documentation
 
-* [App Doc]()
+* [App Doc](/TECH.md)
 
 ### Reference Documentation
 For further reference, please consider the following sections:
