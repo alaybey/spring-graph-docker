@@ -16,7 +16,17 @@ You have to install docker and docker-compose if you want use with container:
 Without docker:
 
 Firstly, you have to run a postgresql db and should change db url from `application.properties` 
-    
+
+###### from: 
+
+    jdbc:postgresql://db:5432/players
+
+###### to 
+   
+    jdbc:postgresql://localhost:5432/players
+
+### and then
+
     mvn clean install
     mvn spring-boot:run
 
